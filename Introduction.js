@@ -24,6 +24,8 @@ const _ = require('lodash');
 const items = [1,[2,[3,[4]]]];
 const newItems = _.flattenDeep(items);
 console.log(newItems);
+console.log("Hello World");
+console.log("Hello People");
 
 //Let's understand why package.json is so important while sharing code with other developers
 //With the help of package.json you don't have to share node_modules folder. Because you can install them by running 'npm install' command on terminal with telling the modules name.
@@ -33,5 +35,5 @@ console.log(newItems);
   run command "npm i nodemon -D" or "npm i nodemon --save-dev"
   
   In package.json
-  the scripts section defines custom commands that you can run using npm run or yarn.
+  the scripts section defines custom commands that you can run using "npm run nameOfCommand".
 */
