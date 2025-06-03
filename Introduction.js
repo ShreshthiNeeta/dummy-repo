@@ -33,7 +33,10 @@ console.log("Hello People");
 
 /*Installing dev dependencies(module)
   run command "npm i nodemon -D" or "npm i nodemon --save-dev"
-  
+   
   In package.json
   the scripts section defines custom commands that you can run using "npm run nameOfCommand".
+
+  To unistall a package
+  command-> "npm uninstall packageName"
 */
